@@ -1,0 +1,8 @@
+See License per libraries,
+The folder cointains various libraries found on the web from various sources such as:
+Sparkfun
+Seeedstudio
+Autodesk Eagle libraries
+Github repesitories
+
+ETC...

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="8.6.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="BM10B(0.8)-16DP-0.4V(51)">
+<description>‎‏‏‎Hirose Electric Co Ltd‎‏ ‏‎BM10B(0.8)-16DP-0.4V(51)‎‏
+
+Digikey: ‏‎H11812CT-ND‎‏</description>
+<text x="-3.04" y="-2.445" size="1.27" layer="25">&gt;Name</text>
+<text x="-3.04" y="-4.35" size="1.27" layer="27">&gt;Value</text>
+<smd name="SPI_SCK" x="-1" y="0" dx="0.75" dy="0.23" layer="1"/>
+<smd name="TXD" x="-1" y="0.4" dx="0.75" dy="0.23" layer="1"/>
+<smd name="RXD" x="-1" y="0.8" dx="0.75" dy="0.23" layer="1"/>
+<smd name="GND$1" x="-1" y="1.2" dx="0.75" dy="0.23" layer="1"/>
+<smd name="VUSB_3.3V" x="-1" y="1.6" dx="0.75" dy="0.23" layer="1"/>
+<smd name="VIN_2-5V" x="-1" y="2" dx="0.75" dy="0.23" layer="1"/>
+<smd name="VDD_1.8V" x="-1" y="2.4" dx="0.75" dy="0.23" layer="1"/>
+<smd name="MIC_CLK" x="-1" y="2.8" dx="0.75" dy="0.23" layer="1"/>
+<smd name="SPI_MISO" x="1" y="0" dx="0.75" dy="0.23" layer="1"/>
+<smd name="SPI_MOSI" x="1" y="0.4" dx="0.75" dy="0.23" layer="1"/>
+<smd name="SPI_NSS" x="1" y="0.8" dx="0.75" dy="0.23" layer="1"/>
+<smd name="GPIO2" x="1" y="1.2" dx="0.75" dy="0.23" layer="1"/>
+<smd name="GPIO3" x="1" y="1.6" dx="0.75" dy="0.23" layer="1"/>
+<smd name="NRST" x="1" y="2" dx="0.75" dy="0.23" layer="1"/>
+<smd name="GPIO5" x="1" y="2.4" dx="0.75" dy="0.23" layer="1"/>
+<smd name="GPIO6" x="1" y="2.8" dx="0.75" dy="0.23" layer="1"/>
+<smd name="G$3" x="0.7" y="-0.57" dx="0.6" dy="0.44" layer="1"/>
+<smd name="G$4" x="-0.7" y="-0.57" dx="0.6" dy="0.44" layer="1"/>
+<smd name="G$2" x="-0.7" y="3.37" dx="0.6" dy="0.44" layer="1"/>
+<smd name="G$1" x="0.7" y="3.37" dx="0.6" dy="0.44" layer="1"/>
+<wire x1="-1.1" y1="-0.9" x2="-1.1" y2="3.7" width="0.127" layer="21"/>
+<wire x1="-1.1" y1="3.7" x2="1.1" y2="3.7" width="0.127" layer="21"/>
+<wire x1="1.1" y1="3.7" x2="1.1" y2="-0.9" width="0.127" layer="21"/>
+<wire x1="1.1" y1="-0.9" x2="-1.1" y2="-0.9" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="BM10B(0.8)-16DP">
+<description>‎‏‏‎Hirose Electric Co Ltd‎‏ ‏‎BM10B(0.8)-16DP-0.4V(51)‎‏
+DIGIKEY: ‏‎H124533CT-ND‎‏</description>
+<wire x1="-12.7" y1="-15.24" x2="-12.7" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="12.7" x2="12.7" y2="12.7" width="0.254" layer="94"/>
+<wire x1="12.7" y1="12.7" x2="12.7" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-15.24" x2="-12.7" y2="-15.24" width="0.254" layer="94"/>
+<text x="-12.7" y="17.78" size="1.27" layer="95">&gt;Name</text>
+<text x="-12.7" y="15.24" size="1.27" layer="96">&gt;Value</text>
+<pin name="G$2" x="-17.78" y="11.43" visible="pin" length="middle"/>
+<pin name="G$1" x="17.78" y="11.43" visible="pin" length="middle" rot="R180"/>
+<pin name="G$4" x="-17.78" y="-13.97" visible="pin" length="middle"/>
+<pin name="G$3" x="17.78" y="-13.97" visible="pin" length="middle" rot="R180"/>
+<pin name="MIC_CLK" x="-17.78" y="7.62" visible="pin" length="middle"/>
+<pin name="VDD_1.8V" x="-17.78" y="5.08" visible="pin" length="middle"/>
+<pin name="VIN_2-5V" x="-17.78" y="2.54" visible="pin" length="middle"/>
+<pin name="VUSB_3.3V" x="-17.78" y="0" visible="pin" length="middle"/>
+<pin name="GND" x="-17.78" y="-2.54" visible="pin" length="middle"/>
+<pin name="RXD" x="-17.78" y="-5.08" visible="pin" length="middle"/>
+<pin name="TXD" x="-17.78" y="-7.62" visible="pin" length="middle"/>
+<pin name="SPI_SCK" x="-17.78" y="-10.16" visible="pin" length="middle"/>
+<pin name="SPI_MISO" x="17.78" y="-10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="SPI_MOSI" x="17.78" y="-7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="SPI_NSS" x="17.78" y="-5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="GPIO2" x="17.78" y="-2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="GPIO3" x="17.78" y="0" visible="pin" length="middle" rot="R180"/>
+<pin name="NRST" x="17.78" y="2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="GPIO5" x="17.78" y="5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="GPIO6" x="17.78" y="7.62" visible="pin" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="BM10B(0.8)-16DP-0.4V(51)">
+<gates>
+<gate name="BM10B$1" symbol="BM10B(0.8)-16DP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BM10B(0.8)-16DP-0.4V(51)">
+<connects>
+<connect gate="BM10B$1" pin="G$1" pad="G$1"/>
+<connect gate="BM10B$1" pin="G$2" pad="G$2"/>
+<connect gate="BM10B$1" pin="G$3" pad="G$3"/>
+<connect gate="BM10B$1" pin="G$4" pad="G$4"/>
+<connect gate="BM10B$1" pin="GND" pad="GND$1"/>
+<connect gate="BM10B$1" pin="GPIO2" pad="GPIO2"/>
+<connect gate="BM10B$1" pin="GPIO3" pad="GPIO3"/>
+<connect gate="BM10B$1" pin="GPIO5" pad="GPIO5"/>
+<connect gate="BM10B$1" pin="GPIO6" pad="GPIO6"/>
+<connect gate="BM10B$1" pin="MIC_CLK" pad="MIC_CLK"/>
+<connect gate="BM10B$1" pin="NRST" pad="NRST"/>
+<connect gate="BM10B$1" pin="RXD" pad="RXD"/>
+<connect gate="BM10B$1" pin="SPI_MISO" pad="SPI_MISO"/>
+<connect gate="BM10B$1" pin="SPI_MOSI" pad="SPI_MOSI"/>
+<connect gate="BM10B$1" pin="SPI_NSS" pad="SPI_NSS"/>
+<connect gate="BM10B$1" pin="SPI_SCK" pad="SPI_SCK"/>
+<connect gate="BM10B$1" pin="TXD" pad="TXD"/>
+<connect gate="BM10B$1" pin="VDD_1.8V" pad="VDD_1.8V"/>
+<connect gate="BM10B$1" pin="VIN_2-5V" pad="VIN_2-5V"/>
+<connect gate="BM10B$1" pin="VUSB_3.3V" pad="VUSB_3.3V"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
